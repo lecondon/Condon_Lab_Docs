@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Cori - My Docs</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../.." class="nav-link">Condon Research Group Docs</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Admin <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../admin/pcard_reimbursement/" class="dropdown-item">Pcard reimbursement</a>
+</li>
+                                    
+<li>
+    <a href="../../../admin/travel_reimbursement/" class="dropdown-item">Information Regarding Reimbursement for Travel</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Example scripts <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../example_scripts/" class="dropdown-item">Example scripts</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">How to notes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">HPC systems</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../UA_HPC/" class="dropdown-item">UA HPC Information</a>
+</li>
+            
+<li>
+    <a href="../cheyenne/" class="dropdown-item">Running on Cheyenne (NCAR)</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active">Cori</a>
+</li>
+            
+<li>
+    <a href="../parflow_install/" class="dropdown-item">ParFlow Install</a>
+</li>
+            
+<li>
+    <a href="../verde/" class="dropdown-item">Verde</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Data and file transfers</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../data_and_file_transfers/apple_remote_desktop_ssh/" class="dropdown-item">Remote Desktop / SSH / Basic Command line</a>
+</li>
+            
+<li>
+    <a href="../../data_and_file_transfers/cyverse/" class="dropdown-item">General Cyverse Information</a>
+</li>
+            
+<li>
+    <a href="../../data_and_file_transfers/globus/" class="dropdown-item">Globus File Transfer</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Tutorials and tranining materials <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../tutorials_and_tranining_materials/" class="dropdown-item">Index</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Useful external resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../useful_external_resources/great_python_packages/" class="dropdown-item">Great python packages</a>
+</li>
+                                    
+<li>
+    <a href="../../../useful_external_resources/parflow_resources/" class="dropdown-item">Parflow resources</a>
+</li>
+                                    
+<li>
+    <a href="../../../useful_external_resources/research_repos/" class="dropdown-item">Research repos</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../cheyenne/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../parflow_install/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#cori" class="nav-link">Cori</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#description" class="nav-link">Description</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#useful-links" class="nav-link">Useful links</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#obtaining-an-account" class="nav-link">obtaining an account</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#logging-in" class="nav-link">Logging in</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#globus" class="nav-link">Globus</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#setting-environments" class="nav-link">Setting environments</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#to-run-parflow" class="nav-link">To run parflow</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#monitoring-your-job" class="nav-link">Monitoring your job</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="cori">Cori</h1>
+<p><strong>Jun Zhang, 04/24/2019</strong></p>
+<h2 id="description">Description</h2>
+<p>Running notes with links and tips for running ParFlow on Cori. Feel free to update and add to this document as needed. </p>
+<h2 id="useful-links">Useful links</h2>
+<p>Getting started: <a href="http://www.nersc.gov/users/computational-systems/cori/">http://www.nersc.gov/users/computational-systems/cori/</a>
+Slides for a short training course are available at Reference Docs/Cori_Training_course</p>
+<h2 id="obtaining-an-account">obtaining an account</h2>
+<p><strong> Sep/2021 </strong>
+Apply an account according to the instructions <a href="https://docs.nersc.gov/accounts">here</a>. Obtain the project number before applying the account.</p>
+<p><strong> Mar/2019 </strong>
+Ask Laura to create a username for you at the NERSC, you will get an email to submit an application. Once they approve it, a second email will be sent to active the account (have to be activated within 72 hours).</p>
+<h2 id="logging-in">Logging in</h2>
+<ol>
+<li>Before you can login any host, you have to create a MFA token for your accounts, instructions are available in <a href="https://docs.nersc.gov/connect/mfa/">https://docs.nersc.gov/connect/mfa/</a> </li>
+<li>Log onto cori with you NERSC username, password and OTP(one-time password) from your token. Our repo number is m2511 (this project is no longer activated).
+<code>ssh username@cori.nersc.gov</code></li>
+<li>The CONUS project directory is (this project is no longer activated).
+    <code>/project/projectdirs/m2511</code></li>
+<li>You should change your default shell to bash and you can do it by logging into  nim.nersc.gov. In the ‘Profile’ tab, scroll down to ‘Server Login’, click the ‘Edit’ option of ‘cori’, choose ‘/bin/bash’ in the ‘Login Shell’.
+Transferring files
+Use scp to transfer files between your local machine and cori for small transfer.
+<code>scp your/local/file username@cori.nersc.gov:your/cori/directory</code></li>
+</ol>
+<h2 id="globus">Globus</h2>
+<p>the recommended tool for moving data in and out of NERSC for large transfers
+<a href="http://www.globus.org/">http://www.globus.org/</a> or <a href="http://globus.nersc.gov/">http://globus.nersc.gov/</a>
+See also the group notes on <a href="../../data_and_file_transfers/globus/">Globus</a></p>
+<p>User scratch directory: <code>/global/cscratch1/sd/yourusername</code></p>
+<h2 id="setting-environments">Setting environments</h2>
+<p><a href="https://docs.nersc.gov/environment/">https://docs.nersc.gov/environment/</a> NOTE that you should not modify your bash_profile directly. Instead you make changes to .bash_profile.ext (mine is here: /global/homes/j/jzhang55). Also note that your home directory is the same across Cori and Hopper and you can put settings in this file that are specific to what machine you are running on. 
+You should add PARFLOW_DIR in your .bash_profile.ext as following:</p>
+<p><code>export PARFLOW_DIR=/global/project/projectdirs/m2511/parflow/cori-v3.7.0-11-gf70ce58-2021-07-14</code>
+Running scripts
+<a href="https://docs.nersc.gov/jobs/">https://docs.nersc.gov/jobs/</a>
+You cannot run on your own directory, have to submit a job to the queue. Check out the queue policies because they have different ‘charge factors’ for different queues:
+<a href="https://docs.nersc.gov/jobs/policy/">https://docs.nersc.gov/jobs/policy/</a>
+You need a job script to specify your job description, and use sbatch to submit the job. The script examples can be found <a href="https://docs.nersc.gov/jobs/examples/">https://docs.nersc.gov/jobs/examples/</a> and also at the end of this file.
+If you prepare your job script or input files in your local computer, it may result in error (Batch script contains DOS line breaks (\r\n). Use command <code>dos2unix yourfilename.</code></p>
+<p>Cori also provides an online job script generator, which is easy to use and can be found in MyNERSC -&gt; Jobs -&gt; Jobscript generator <a href="https://my.nersc.gov/script_generator.php">https://my.nersc.gov/script_generator.php</a></p>
+<h2 id="to-run-parflow">To run parflow</h2>
+<p>Use tclsh on the command line before submitting the job to the queue. </p>
+<p>Job script example</p>
+<pre><code class="language-bash">#!/bin/bash -l
+#SBATCH --qos=debug
+#SBATCH --nodes=2
+#SBATCH --constraint=haswell   
+#SBATCH --time=00:10:00    {the maximum running time}
+#SBATCH --job-name=test
+#SBATCH --account=m3780
+
+export PARFLOW_DIR=/global/project/projectdirs/m2511/parflow/cori-v3.7.0-11-gf70ce58-2021-07-14
+source $PARFLOW_DIR/setenv.sh   {these two lines are required to run}
+
+cd /global/cscratch1/sd/jzhang55/test/    {cd your directory}
+srun -n 64 $PARFLOW_DIR/bin/parflow test    {srun -n 64 means you request 64/32=2 nodes to run, so #SBATCH --nodes=2}
+</code></pre>
+<h2 id="monitoring-your-job">Monitoring your job</h2>
+<p><a href="https://docs.nersc.gov/jobs/#submitting-jobs">https://docs.nersc.gov/jobs/#submitting-jobs</a>
+<a href="https://docs.nersc.gov/jobs/#monitoring-jobs">https://docs.nersc.gov/jobs/#monitoring-jobs</a></p>
+<ul>
+<li><code>sbatch</code>: submit a batch script</li>
+<li><code>sacct</code>: display accounting data for jobs and job steps</li>
+<li><code>salloc</code>: request nodes for an interactive batch session</li>
+<li><code>srun</code>: launch parallel jobs</li>
+<li><code>scancel</code>: delete a batch job</li>
+<li><code>sqs</code>: NERSC custom queue display with job priority ranking info</li>
+<li><code>squeue</code>: display info about jobs in the queue</li>
+<li><code>sinfo</code>: view SLURM configuration about nodes and partitions</li>
+<li><code>scontrol</code>: view and modify SLURM configuration and job state</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
